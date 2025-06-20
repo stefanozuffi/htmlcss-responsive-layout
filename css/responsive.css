@@ -1,0 +1,67 @@
+@media screen and (min-width: 768px){
+
+    /* Title */
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    /* Padding for Main */
+
+    .container {
+        padding: 30px;
+    }
+    
+    /* Title */
+
+    .recipe-origin {
+       display: inline;
+    }
+
+    .recipe-title {
+        width: 85%;
+    }
+
+    /* Grid Info */
+
+    .quick-notes {
+        padding: 0 auto;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6%;
+
+        li {
+            width: 29%;
+        }
+
+    }
+    
+    /* Buttons */
+
+    .social-networks {
+
+        .btn {
+            padding: 10px 48px;
+        }
+    }
+
+    /* Banner */
+
+    .ads {
+        display: block;
+    }
+
+    /* Presentation */
+
+    .presentation {
+
+        img { 
+            display: inline; 
+            margin-right: 10px;
+            float: left;
+        } 
+    }
+}
