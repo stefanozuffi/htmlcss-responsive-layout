@@ -110,4 +110,15 @@
         display: inline;
     }
 
+    /* Footer */
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+
+        address {
+            text-align: start;
+        }
+    }
+
 }
