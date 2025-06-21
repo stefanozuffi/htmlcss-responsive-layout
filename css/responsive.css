@@ -1,3 +1,4 @@
+/* Bonus: Large mobile device */
 @media screen and (min-width: 576px){
 
     .presentation {
@@ -19,6 +20,7 @@
 }
 
 
+/* Tablet */
 @media screen and (min-width: 768px){
 
     /* Title */
@@ -87,7 +89,7 @@
     }
 }
 
-
+/* Desktop */
 @media screen and (min-width: 992px) {
 
     /* Title */
@@ -142,5 +144,24 @@
             text-align: start;
         }
     }
+
+}
+
+/* Aggiunta Extra per dispositivi mobili piccoli */
+
+@media screen and (max-width: 371px){
+      #topbar {
+        position: fixed;
+        top: 5px;
+        margin-bottom: 30px;
+      }
+
+      main {
+        padding-top: 100px;
+      }
+
+      #logo {
+        line-height: 40px;
+      }
 
 }
