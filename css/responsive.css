@@ -1,3 +1,24 @@
+@media screen and (min-width: 576px){
+
+    .presentation {
+
+        img { 
+            display: inline; 
+            margin-right: 7px;
+            float: left;
+        } 
+    }
+
+    .social-networks {
+
+        .btn {
+            padding: 10px 38px;
+        }
+    }
+
+}
+
+
 @media screen and (min-width: 768px){
 
     /* Title */
@@ -81,6 +102,7 @@
 
           .recipe-video {
               width: 70%;
+             
           }
           .recipe-info {
             width: 30%;
@@ -101,7 +123,7 @@
 
     .social-networks {
         .btn {
-           padding: 10px 4%;
+           padding: 10px 3%;
         }
         
     }
